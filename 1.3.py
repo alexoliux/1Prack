@@ -2,7 +2,7 @@ import math
 from math import *
 
 
-def f(n, m):
+def f13(n, m):
     sum1 = 0
     for i in range(1, n + 1):
         sum1 += exp(i) - pow(i, 4) - 28
@@ -13,5 +13,5 @@ def f(n, m):
     return sum1 + sum2
 
 
-print('%.2e' % f(22, 47))
-print('%.2e' % f(32, 33))
+print('%.2e' % f13(22, 47))
+print('%.2e' % f13(32, 33))
